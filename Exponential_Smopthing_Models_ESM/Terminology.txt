@@ -1,0 +1,4 @@
+ESM = Exponential Smoothing Models
+ETS = Error Trend Seasonality
+    Error - difference between the observed value and the trendline estimate
+    Trend: uptrend, downtrend, horizontal trend

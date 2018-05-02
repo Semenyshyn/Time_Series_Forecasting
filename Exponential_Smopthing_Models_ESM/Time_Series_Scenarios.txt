@@ -1,0 +1,35 @@
+Time Series Scenarios
+Next we're going to be exploring several different exponential models to understand
+how each model is different and which model should be used for which specific
+scenario you'll see in a time series.
+The possible time series (TS) scenarios can be recognized by asking the following
+questions:
+
+TS has a trend?
+If yes, is the trend increasing linearly or exponentially?
+
+TS has seasonality?
+If yes, do the seasonal components increase in magnitude over time?
+Scenarios
+
+Therefore the scenarios could be:
+        No-Trend, No-Seasonal - (Simple Exponential Smoothing Method)
+        No-Trend, Seasonal-Constant
+        No-Trend, Seasonal-Increasing
+        Trend-Linear,No-Seasonal
+        Trend-Linear,Seasonal-Constant
+        Trend-Linear,Seasonal-Increasing
+        Trend-Exponential,No-Seasonal
+        Trend-Exponential,Seasonal-Constant
+        Trend-Exponential,Seasonal-Increasing
+
+As you can see there are nine possible scenarios.
+
+ETS Models
+We are going to explore four ETS models that can help forecast
+these possible time-series scenarios.
+
+Simple Exponential Smoothing Method
+Holt's Linear Trend Method
+Exponential Trend Method
+Holt-Winters Seasonal Method
